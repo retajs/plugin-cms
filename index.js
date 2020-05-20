@@ -1,4 +1,4 @@
-export function create ({ views = {}, prefix = '', routerOptions = {} } = {}) {
+export default ({ views = {}, prefix = '', routerOptions = {} } = {}) => {
   const { routes = [] } = routerOptions
   prefix = prefix.replace(/(^\/+)|(\/+$)/g, '').replace(/(.+)/g, '$1/')
   routerOptions.routes = routes.concat([
