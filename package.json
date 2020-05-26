@@ -1,10 +1,14 @@
 {
   "name": "@retajs/plugin-cms",
-  "version": "1.0.0-dev.2",
+  "version": "1.0.0-dev.8",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "peerDependencies": {
+    "knex": "^0.21",
+    "mysql": "^2.18"
   },
   "repository": {
     "type": "git",
